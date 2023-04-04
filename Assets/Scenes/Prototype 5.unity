@@ -658,7 +658,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1013185178
 RectTransform:
   m_ObjectHideFlags: 0
@@ -893,6 +893,7 @@ MonoBehaviour:
   - {fileID: 5904193366988666876, guid: 432f49393f39442d9b22b832a3d39f84, type: 3}
   scoreText: {fileID: 543040114}
   gameOverText: {fileID: 1824543847}
+  restartButton: {fileID: 1013185179}
   isGameActive: 0
 --- !u!4 &1062291018
 Transform:
