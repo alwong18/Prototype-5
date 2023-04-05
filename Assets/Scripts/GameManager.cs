@@ -61,6 +61,7 @@ public class GameManager : MonoBehaviour
         isGameActive = true;
         score = 0;
         spawnRate /= difficulty;
+        
         StartCoroutine(SpawnTarget());
         UpdateScore(0);
 
